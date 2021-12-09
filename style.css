@@ -1,2 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
-/* font-family: 'Raleway', sans-serif; /*
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   font-family: 'Raleway', sans-serif;    
+   background: linear-gradient(to bottom, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   height: 100vh;
+   font-weight: bold;
+
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+
+
+}
+
+li, a, button {
+    text-decoration: none;
+}
+
+
+h2 {
+    font-family: 'Signika', sans-serif;
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+
+nav, li {
+    display: inline-block;
+    padding: 5px 0;
+
+}
